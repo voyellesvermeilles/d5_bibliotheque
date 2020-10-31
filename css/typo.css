@@ -1,55 +1,48 @@
-h1 {
-  font-family: hwt-arabesque, sans-serif;
-  font-size: 3.5em;
-  font-weight: 400;
-  font-style: normal;
-  text-transform : uppercase;
-}
+@media (max-width: 800px) {
+  h1 {
+    font-family: hwt-arabesque, sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform : uppercase;
+  }
 
-h2{
-  font-family: hwt-arabesque, sans-serif;
-  font-size: 3.5em;
-  font-weight: 400;
-  font-style: normal;
-  text-transform:lowercase;
-}
+  h2{
+    font-family: hwt-arabesque, sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform:lowercase;
+  }
 
-h3 {
-  font-family: proxima-nova-extra-condensed, sans-serif;
-  font-size: 1.5em;
-  font-weight: 700;
-  font-style: normal;
-  text-transform : uppercase;
-}
+  h3 {
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-style: normal;
+    text-transform : uppercase;
+  }
 
 
-p {
-  font-family: itc-avant-garde-gothic-pro, sans-serif;
-  font-size: 0.9em;
-  font-weight: 500;
-  font-style: normal;
-  line-height: 1.8em;
-}
+  p {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.8em;
+  }
 
-.menu {
-  font-family: itc-avant-garde-gothic-pro, sans-serif;
-  font-weight: 500;
-  font-style: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  /*lettre-spacing permet de modifier l'interlettrage*/
-}
+  .strong {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.8em;
+  }
 
-figcaption {
-  font-family: proxima-nova-extra-condensed, sans-serif;
-  text-align: center;
-  font-size: 1.5em;
-  font-weight: 700;
-  font-style: normal;
-  text-transform : uppercase;
-}
 
-footer {
+
+  .menu {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 500;
     font-style: bold;
@@ -57,4 +50,94 @@ footer {
     letter-spacing: 0.1em;
     /*lettre-spacing permet de modifier l'interlettrage*/
   }
+
+  figcaption {
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: normal;
+    text-transform : uppercase;
+  }
+
+  footer {
+      font-family: itc-avant-garde-gothic-pro, sans-serif;
+      font-weight: 500;
+      font-style: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      /*lettre-spacing permet de modifier l'interlettrage*/
+    }
+  }
+
+@media (min-width: 800px) {
+  h1 {
+    font-family: hwt-arabesque, sans-serif;
+    font-size: 3.5em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform : uppercase;
+  }
+
+  h2{
+    font-family: hwt-arabesque, sans-serif;
+    font-size: 3.5em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform:lowercase;
+  }
+
+  h3 {
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: normal;
+    text-transform : uppercase;
+  }
+
+
+  p {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.8em;
+  }
+
+  .strong {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-size: 0.9em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.8em;
+  }
+
+
+
+  .menu {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    /*lettre-spacing permet de modifier l'interlettrage*/
+  }
+
+  figcaption {
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: normal;
+    text-transform : uppercase;
+  }
+
+  footer {
+      font-family: itc-avant-garde-gothic-pro, sans-serif;
+      font-weight: 500;
+      font-style: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      /*lettre-spacing permet de modifier l'interlettrage*/
+    }
 }
